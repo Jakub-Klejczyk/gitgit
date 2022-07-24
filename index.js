@@ -11,7 +11,7 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (email.value.match(pattern)) {
-    console.log("Jest OK");
+    console.log("Jest meega OK");
   } else {
     console.log("Kurwa nie OK");
   }
